@@ -1,0 +1,45 @@
+.sort-container{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:15px;
+
+  margin:20px 30px;
+
+  color:white;
+}
+
+.sort-container label{
+
+  font-size:18px;
+
+  font-weight:bold;
+}
+
+.sort-container select{
+
+  background:#111;
+
+  color:white;
+
+  border:1px solid #444;
+
+  padding:12px 18px;
+
+  border-radius:12px;
+
+  font-size:16px;
+
+  cursor:pointer;
+
+  outline:none;
+
+  transition:0.3s;
+}
+
+.sort-container select:hover{
+
+  border-color:#FFD700;
+}
